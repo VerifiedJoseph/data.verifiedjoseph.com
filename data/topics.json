@@ -1,0 +1,56 @@
+[
+	{
+	  "name": "Politics",
+	  "text": "",
+	  "id": "politics",
+	  "hide": false
+	},
+	{
+	  "name": "Local Government",
+	  "text": "",
+	  "id": "local-government",
+	  "hide": true
+	},
+	{
+	  "name": "Freedom of Information",
+	  "text": "",
+	  "id": "freedom-of-information",
+	  "hide": false
+	},
+	{
+	  "name": "Newspapers",
+	  "text": "",
+	  "id": "newspapers",
+	  "hide": false
+	},
+	{
+	  "name": "Videos",
+	  "text": "",
+	  "id": "videos",
+	  "hide": false
+	},
+	{
+	  "name": "Coronavirus (COVID-19)",
+	  "text": "",
+	  "id": "coronavirus-COVID-19",
+	  "hide": false
+	},
+	{
+	  "name": "Grenfell Tower",
+	  "text": "",
+	  "id": "grenfell-tower",
+	  "hide": false
+	},
+	{
+	  "name": "Pwned Passwords",
+	  "text": "",
+	  "id": "pwned-passwords",
+	  "hide": false
+	},
+	{
+	  "name": "Miscellaneous",
+	  "text": "",
+	  "id": "miscellaneous",
+	  "hide": false
+	}
+  ]

@@ -1,0 +1,54 @@
+Dashboard,State,Agency
+https://coronavirus.jhu.edu/map.html,N/A,Johns Hopkins University
+https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html,N/A,Centers for Disease Control and Prevention
+https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7,Alabama,Alabama Department of Public Health
+https://coronavirus-response-alaska-dhss.hub.arcgis.com/,Alaska,Alaska Department of Health and Social Services
+https://azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,Arizona,Arizona Department of Health Services
+https://experience.arcgis.com/experience/c2ef4a4fcbe5458fbf2e48a21e4fece9,Arkansas,Arkansas Department of Health
+https://public.tableau.com/views/COVID-19PublicDashboard/Covid-19Public?%3Aembed=y&%3Adisplay_count=no&%3AshowVizHome=no,California,California Department of Public Health
+https://covid19.colorado.gov/data/case-data,Colorado,Colorado Department of Public Health and Environment
+https://portal.ct.gov/Coronavirus/COVID-19-Data-Tracker,Connecticut,Connecticut Department of Public Health
+https://myhealthycommunity.dhss.delaware.gov/locations/state,Delaware,Delaware Health and Social Services
+https://floridahealthcovid19.gov/,Florida,Florida Department of Health
+https://experience.arcgis.com/experience/7572b118dc3c48d885d1c643c195314e/,Florida,N/A (created by Dr Rebekah Jones)
+https://dph.georgia.gov/covid-19-daily-status-report,Georgia,Georgia Department of Public Health
+https://experience.arcgis.com/experience/eb56a98b71324152a918e72d3ccdfc20,Hawaii,Hawaii Department of Health
+https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/Story1,Idaho,Idaho Department of Health and Welfare
+https://dph.illinois.gov/covid19,Illinois,Illinois Department of Public Health
+https://www.coronavirus.in.gov/2393.htm,Indiana,Indiana State Department of Health
+https://coronavirus.iowa.gov/,Iowa,Iowa Department of Public Health
+https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,Kansas ,Kansas Department of Health and Environment
+https://govstatus.egov.com/kycovid19,Kentucky,Cabinet for Health and Family Services
+http://ldh.la.gov/coronavirus/,Louisiana,Louisiana Department of Health
+https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Maine,Maine Department of Health and Human Services
+https://coronavirus.maryland.gov/,Maryland,Maryland Department of Health
+https://www.mass.gov/info-details/covid-19-updates-and-information,Massachusetts,Massachusetts Department of Public Health
+"https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html",Michigan,Michigan Department of Health and Human Services
+https://www.health.state.mn.us/diseases/coronavirus/index.html,Minnesota,Minnesota Department of Health
+"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",Mississippi,Mississippi State Department of Health
+https://missouri-coronavirus-gis-hub-mophep.hub.arcgis.com/,Missouri,Missouri Department of Health and Senior Services
+https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,Montana,Montana Department of Public Health and Human Services
+https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,Nebraska,Nebraska Department of Health and Human Services
+https://nvhealthresponse.nv.gov/,Nevada,Nevada Department of Health and Human Services
+https://www.nh.gov/covid19/dashboard/summary.htm,New Hampshire,New Hampshire Department of Health and Human Services
+https://covid19.nj.gov/,New Jersey,New Jersey Department of Health
+https://cvprovider.nmhealth.org/public-dashboard.html,New Mexico,New Mexico Department of Health
+https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Map?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n,New York,New York State Department of Health
+https://covid19.ncdhhs.gov/dashboard,North Carolina ,North Carolina Department of Health and Human Services
+https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,North Dakota,North Dakota Department of Health
+https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards,Ohio,Ohio Department of Health
+https://coronavirus.health.ok.gov/,Oklahoma,Oklahoma State Department of Health
+https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19PublicHealthIndicators/COVID-19Burden,Oregon,Oregon Health Authority
+https://www.health.pa.gov/topics/disease/coronavirus/Pages/Coronavirus.aspx,Pennsylvania,Pennsylvania Department of Health
+https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com/,Rhode Island,Rhode Island Department of Health
+https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,South Carolina,South Carolina Department of Health and Environmental Control
+http://doh.sd.gov/news/Coronavirus.aspx,South Dakota,South Dakota Department of Health
+https://www.tn.gov/health/cedep/ncov/data.html,Tennessee,Tennessee Department of Health
+https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,Texas,Texas Department of State Health Services 
+https://coronavirus-dashboard.utah.gov/,Utah,Utah Department of Health
+https://www.healthvermont.gov/response/coronavirus-covid-19/current-activity-vermont#dashboard,Vermont,Vermont Department of Health
+https://www.vdh.virginia.gov/coronavirus/,Virginia,Virginia Department of Health
+https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,Washington,Washington State Department of Health
+https://dhhr.wv.gov/COVID-19/Pages/default.aspx,West Virginia,West Virginia Department of Health and Human Resources
+https://www.dhs.wisconsin.gov/covid-19/index.htm,Wisconsin,Wisconsin Department of Health Services
+https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/,Wyoming ,Wyoming Department of Health

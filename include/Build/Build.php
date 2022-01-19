@@ -169,7 +169,7 @@ class Build {
 			$path .= $folder . DIRECTORY_SEPARATOR;
 
 			if (is_dir($path) === false) {
-				if(mkdir($path, recursive: true) === false) {
+				if(mkdir($path) === false) {
 					throw new Exception('Failed to create folder: ' . $path);
 				}
 			}

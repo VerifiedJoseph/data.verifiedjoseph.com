@@ -26,6 +26,10 @@
 	vertical-align: middle
 }
 
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+
 .card {
 	margin-bottom: 10px;
 	width: 100%

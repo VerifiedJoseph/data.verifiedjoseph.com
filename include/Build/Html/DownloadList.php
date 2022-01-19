@@ -2,6 +2,8 @@
 
 namespace Build\Html;
 
+use Build\Helper\Convert;
+
 class DownloadList {
 	private array $metadata = array();
 
@@ -15,6 +17,7 @@ class DownloadList {
 		foreach ($this->metadata['downloads'] as $type => $size) {
 			$name = strtoupper($type);
 			$id = $this->metadata['identifier'];
+			$size = Convert::fileSize($size);
 
 			$list .= <<<HTML
 				<li><a href="https://data.verifiedjoseph.com/download/{$id}.{$type}">{$name}</a> ({$size})</li>

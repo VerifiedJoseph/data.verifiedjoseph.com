@@ -96,12 +96,12 @@ EOD;
 			$this->metadata = array_merge($this->metadata, $metadata);
 
 			// Encode metadata array as JSON
-			$metadataJson = json_encode($this->metadata, true);
+			$metadataJson = json_encode($this->metadata,  JSON_PRETTY_PRINT);
 
 			$file = new File();
 			$file->update($this->getMetadata('identifier'), $metadataJson, 'metadata');
 
-			$this->message = 'Updated metadata - <a href="">View</a>';
+			$this->message = 'Updated metadata - <a href="view.php?id=' . $this->getMetadata('identifier') . '">View</a>';
 		} catch (Exception $e) {
 			$this->usePostData = true;
 			$this->message = $e->getMessage();

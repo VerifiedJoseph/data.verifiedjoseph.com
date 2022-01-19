@@ -69,9 +69,9 @@ class Table {
 				$text = "Archive-it";
 			}
 
-			$data = '<a class="external" id="' . $text . '" target="_blank" title="' . $data . '" href="' . $data . '">' . $text . '</a>';
+			return '<a class="external" id="' . $text . '" target="_blank" title="' . $data . '" href="' . $data . '">' . $text . '</a>';
 		}
 		
-		return $data;
+		return htmlspecialchars($data);
 	}
 }

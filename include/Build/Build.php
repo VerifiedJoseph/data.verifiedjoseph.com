@@ -104,8 +104,8 @@ class Build {
 			$jsonSize = filesize($outputPath . $id . '.json');
 
 			// Create YAML file
-			$this->saveFile($id . '.yaml', $create->yaml(), 'download');
-			$yamlSize = filesize($outputPath . $id . '.json');
+			//$this->saveFile($id . '.yaml', $create->yaml(), 'download');
+			//$yamlSize = filesize($outputPath . $id . '.json');
 
 			// Create XML file
 			$this->saveFile($id . '.xml', $create->xml(), 'download');
@@ -119,7 +119,7 @@ class Build {
 				'csv' => $csvSize,
 				'xml' => $xmlSize,
 				'json' => $jsonSize,
-				'yaml' => $yamlSize,
+				//'yaml' => $yamlSize,
 			);
 		}
 	}

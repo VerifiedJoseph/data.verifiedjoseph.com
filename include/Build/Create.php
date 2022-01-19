@@ -3,7 +3,7 @@
 namespace Build;
 
 use DOMDocument;
-use Symfony\Component\Yaml\Yaml;
+//use Symfony\Component\Yaml\Yaml;
 
 class Create {
 	private array $data = array();
@@ -23,7 +23,7 @@ class Create {
 	}
 
 	public function yaml() {
-		return Yaml::dump($this->data);
+		//return Yaml::dump($this->data);
 	}
 	
 	public function xml() {

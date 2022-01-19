@@ -6,7 +6,7 @@ class Index {
 	/**
 	 * Returns lists of datasets as HTML
 	 */
-	public function displayDataSets() {		
+	public function displayDataSets() {	
 		$metadata = Get::metadataList();
 
 		$html = '';
@@ -15,6 +15,7 @@ class Index {
 				<strong>{$item['title']}</strong>
 				<!-- <a target="_blank" href="view.php?id={$item['identifier']}">Local Preview</a> -->
 				<a target="_blank" href="https://data.verifiedjoseph.com/dataset/{$item['identifier']}">[Live Page]</a>
+				<a target="_blank" href="view.php?id={$item['identifier']}">[Preview Page]</a>
 				<a target="_blank" href="../public/dataset/{$item['identifier']}.html">[Local Build]</a>
 				<a href="metadata_edit.php?id={$item['identifier']}">[Edit Metadata]</a>
 				<a href="dataset_edit.php?id={$item['identifier']}">[Edit Dataset]</a>

@@ -83,3 +83,7 @@
 .space {
 	padding-bottom: 10px
 }
+
+h4.card-title > a {
+	color: #000;
+}

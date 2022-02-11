@@ -31,7 +31,7 @@ class Page {
 
 			$html .= '<div class="col-sm-12 col-md-6 col-lg-4 d-flex"><div class="card">
 			<div class="card-body">
-				<h4 class="card-title">' . $set['title'] . '</h4>
+				<h4 class="card-title"><a href="{url}/dataset/' . $set['identifier'] . '">' . $set['title'] . '</a></h4>
 				<p class="card-subtitle mb-2 text-muted">Last updated: ' . date('F j, Y H:i:s', strtotime($set['updated'])) . '</p>
 				<p class="card-text">' . $set['description_short'] . '</p>
 			</div>

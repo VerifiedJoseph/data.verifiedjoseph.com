@@ -8130,3 +8130,7 @@ p.margin-zero {
 	background-image: url(images/external-link.png);
 	padding-right: 13px;
 }
+
+h4.card-title > a {
+	color: #000;
+}

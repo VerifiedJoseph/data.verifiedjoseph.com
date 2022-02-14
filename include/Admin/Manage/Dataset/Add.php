@@ -113,9 +113,6 @@ EOD;
 
 			// Create metadata file
 			$file->create($metadata['identifier'], $metadataJson, 'metadata');
-
-			// Create references file
-			$file->create($metadata['identifier'], '', 'references');
 	
 			// Create dataset file
 			$file->create($metadata['identifier'], $dataset, 'dataset');

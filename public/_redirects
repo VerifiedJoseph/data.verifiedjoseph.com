@@ -1,4 +1,4 @@
-/files/* https://data-verifiedjoseph.fra1.digitaloceanspaces.com/:splat
+/files/* https://storage.verifiedjoseph.com/:splat
 /category/* https://data.verifiedjoseph.com/topic/:splat
 /pwned-passwords https://data.verifiedjoseph.com/dataset/pwned-passwords-version-8
 /category/grenfell-tower-fire https://data.verifiedjoseph.com/category/grenfell-tower

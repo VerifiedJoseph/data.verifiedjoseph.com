@@ -6,10 +6,22 @@
 	  "hide": false
 	},
 	{
-	  "name": "Local Government",
-	  "text": "",
-	  "id": "local-government",
-	  "hide": true
+		"name": "Coronavirus (COVID-19)",
+		"text": "",
+		"id": "coronavirus-COVID-19",
+		"hide": false
+	},
+	{
+		"name": "Grenfell Tower",
+		"text": "",
+		"id": "grenfell-tower",
+		"hide": false
+	},
+	{
+		"name": "Pwned Passwords",
+		"text": "",
+		"id": "pwned-passwords",
+		"hide": false
 	},
 	{
 	  "name": "Freedom of Information",
@@ -30,27 +42,9 @@
 	  "hide": false
 	},
 	{
-	  "name": "Coronavirus (COVID-19)",
-	  "text": "",
-	  "id": "coronavirus-COVID-19",
-	  "hide": false
-	},
-	{
-	  "name": "Grenfell Tower",
-	  "text": "",
-	  "id": "grenfell-tower",
-	  "hide": false
-	},
-	{
-	  "name": "Pwned Passwords",
-	  "text": "",
-	  "id": "pwned-passwords",
-	  "hide": false
-	},
-	{
 	  "name": "Miscellaneous",
 	  "text": "",
 	  "id": "miscellaneous",
 	  "hide": false
 	}
-  ]
+]

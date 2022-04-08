@@ -49,6 +49,7 @@ class Build {
 		}
 		
 		$pageBody = $this->templates['home-page'];
+		$pageBody = $this->html->replace('{lists}', $html, $pageBody);
 
 		$page = $this->html->page(
 			'Home', 

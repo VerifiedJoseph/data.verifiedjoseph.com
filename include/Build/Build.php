@@ -49,7 +49,6 @@ class Build {
 		}
 		
 		$pageBody = $this->templates['home-page'];
-		$pageBody = $this->html->replace('{lists}', $html, $pageBody);
 
 		$page = $this->html->page(
 			'Home', 
@@ -62,6 +61,21 @@ class Build {
 		$this->saveFile('index.html', $page);
 	}
 	
+	public function notFoundPage() {
+		output::text('Creating not found page');
+
+		$pageBody = $this->templates['not-found'];
+		$page = $this->html->page(
+			'Page Not Found', 
+			'Page Not Found',
+			'Page Not Found',
+			'',
+			$pageBody
+		);
+
+		$this->saveFile('404.html', $page);
+	}
+
 	public function topics() {
 		output::text('Creating topics');
 

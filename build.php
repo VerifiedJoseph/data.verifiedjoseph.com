@@ -11,6 +11,7 @@ try {
 	$build->loadFiles();
 
 	$build->homepage();
+	$build->notFoundPage();
 	$build->topics();
 	$build->downloads();
 	$build->datasets();

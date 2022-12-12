@@ -54,7 +54,7 @@ class validate {
 		$metadata['title'] = htmlentities($post['title']);
 		$metadata['description_short'] = htmlentities($post['description_short']);
 		$metadata['description_long'] = $post['description_long'];
-		$metadata['topic'] = htmlentities($post['category']);
+		$metadata['topic'] = htmlentities($post['topic']);
 		$metadata['status'] = $post['status'];
 
 		return $metadata;

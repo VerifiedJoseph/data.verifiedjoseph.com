@@ -45,28 +45,28 @@ class Manage {
 		return '';
 	}
 	
-	protected function getCategorySelect() {
-		$categories = Get::topicList();
+	protected function getTopicSelect() {
+		$topics = Get::topicList();
 		$selectList = '';
 
-		if (empty($this->getMetadata('category')) === false) {
-			$name = Get::topicName($this->getMetadata('category'));
+		if ($this->getMetadata('topic') !== '') {
+			$name = Get::topicName($this->getMetadata('topic'));
 
 			$selectList .= <<<HTML
-				<option value="{$this->getMetadata('category')}">Current: {$name}</option>
+				<option value="{$this->getMetadata('topic')}">Current: {$name}</option>
 
 HTML;
 		}
 		
-		foreach ($categories as $index => $category) {
+		foreach ($topics as $index => $topic) {
 			$hidden = '';
 
-			if ($category['hide'] == true) {
+			if ($topic['hide'] == true) {
 				$hidden = '[hidden]';
 			}
 
 			$selectList .= <<<HTML
-				<option value="{$category['id']}">{$category['name']} {$hidden}</option>
+				<option value="{$topic['id']}">{$topic['name']} {$hidden}</option>
 
 HTML;
 

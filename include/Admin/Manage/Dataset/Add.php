@@ -46,10 +46,10 @@ class Add extends Manage {
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-lg-3 control-label">Category</label>
+						<label class="col-lg-3 control-label">Topic</label>
 						<div class="col-lg-9">
-							<select class="form-control" name="category">
-							{$this->getCategorySelect()}
+							<select class="form-control" name="topic">
+							{$this->getTopicSelect()}
 						</select>
 						</div>
 					</div>

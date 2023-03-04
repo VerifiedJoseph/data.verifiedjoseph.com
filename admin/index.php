@@ -34,10 +34,8 @@ $index = new Index();
 			</div>
 		</div>
 		<h3>Data Sets</h3>
-		<div class="row">	  
-			<div class="col-lg-12">
-				<?php $index->displayDataSets(); ?>
-			</div>
+		<div class="row"> 
+			<?php $index->displayDataSets(); ?>
 		</div>
 		<footer class="footer">
 		</footer>

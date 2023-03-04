@@ -21,7 +21,7 @@
 		"name": "Manchester Arena Bombing",
 		"text": "",
 		"id": "manchester-arena-bombing",
-		"hide": false
+		"hide": true
 	},
 	{
 		"name": "Pwned Passwords",

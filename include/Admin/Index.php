@@ -12,16 +12,19 @@ class Index {
 		$html = '';
 		foreach ($metadata as $item) {
 			$html .= <<<HTML
-				<strong>{$item['title']}</strong>
-				<!-- <a target="_blank" href="view.php?id={$item['identifier']}">Local Preview</a> -->
-				<a target="_blank" href="https://data.verifiedjoseph.com/dataset/{$item['identifier']}">[Live Page]</a>
-				<a target="_blank" href="view.php?id={$item['identifier']}">[Preview Page]</a>
-				<a target="_blank" href="../public/dataset/{$item['identifier']}.html">[Local Build]</a>
-				<a href="metadata_edit.php?id={$item['identifier']}">[Edit Metadata]</a>
-				<a href="dataset_edit.php?id={$item['identifier']}">[Edit Dataset]</a>
-			<p><small>ID: {$item['identifier']}</small><br/>{$item['description']}</p>
-			<small>Created: {$item['created']} | Topic: {$item['topic']}
-			<br>Updated: '{$item['updated']} | Status: {$item['status']}</small></p>
+				<div class="col-sm-12 col-md-6 col-lg-4 d-flex">
+					<strong>{$item['title']}</strong>
+					<br>
+					<!-- <a target="_blank" href="view.php?id={$item['identifier']}">Local Preview</a> -->
+					<a target="_blank" href="https://data.verifiedjoseph.com/dataset/{$item['identifier']}">[Live Page]</a>
+					<a target="_blank" href="view.php?id={$item['identifier']}">[Preview Page]</a>
+					<a target="_blank" href="../public/dataset/{$item['identifier']}.html">[Local Build]</a>
+					<a href="metadata_edit.php?id={$item['identifier']}">[Edit Metadata]</a>
+					<a href="dataset_edit.php?id={$item['identifier']}">[Edit Dataset]</a>
+					<p><small>ID: {$item['identifier']}</small><!--<br/>{$item['description']}--></p>
+					<small>Created: {$item['created']} | Topic: {$item['topic']}
+					<br>Updated: '{$item['updated']} | Status: {$item['status']}</small></p>
+				</div>
 HTML;
 		}
 	

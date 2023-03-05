@@ -54,7 +54,7 @@ class Build {
 		$page = $this->html->page(
 			'Home', 
 			'',
-			'data.verifiedjoseph.com is a repository of open source datasets covering a range of topics.',
+			'data.verifiedjoseph.com is a repository of datasets covering a range of topics.',
 			'',
 			$pageBody
 		);

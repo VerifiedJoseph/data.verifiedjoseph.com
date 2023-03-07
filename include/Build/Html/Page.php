@@ -35,10 +35,10 @@ class Page {
 				<p class="card-subtitle mb-2 text-muted">Last updated: ' . date('F j, Y H:i:s', strtotime($set['updated'])) . '</p>
 				<p class="card-text">' . $set['description_short'] . '</p>
 			</div>
-			<div class="card-footer">
+			<!--<div class="card-footer">
 				<a href="{url}/dataset/' . $set['identifier'] . '" class="card-link">View Dataset</a>
-				<!--<span class="card-text-margin float-right">Dataset items:</span>-->
-    		</div>
+				<!--<span class="card-text-margin float-right">Dataset items:</span>
+    		</div>-->
 			</div></div>';
 		}
 
